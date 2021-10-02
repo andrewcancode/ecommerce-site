@@ -185,13 +185,18 @@ body {
 }
 
 .featured-categories img:hover {
-    transform: scale(1.1)
+    transform: rotate3d(1, 2.0, 3.0, 10deg);
 }
 
 /* on sale products css */
 
 .on-sale {
     margin: 50px 0;
+}
+
+.title-link {
+    text-decoration: none;
+    color: black;
 }
 
 .on-sale img {
@@ -201,9 +206,65 @@ body {
     cursor: pointer;
 }
 
+.item-description {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+    margin-bottom: 0
+}
+
+.item-description:hover {
+    text-overflow: unset;
+    white-space: normal;
+}
+
+.on-sale p strong {
+    color: red;
+}
+
 .on-sale img:hover {
     transform: scale(1.1)
 }
+
+.price {
+    font-size: 24px;
+}
+
+.add-to-cart {
+    text-decoration: none;
+    background-color: orange;
+    color: #ffffff;
+    padding: 8px 5px;
+    font-size: 16px;
+    float: right;
+}
+
+.add-to-cart:hover {
+background-color:darkgoldenrod;
+color: lightgray;
+
+}
+
+/* .menu-bar ul {
+    display: inline-flex;
+    float: right;
+}
+
+.menu-bar ul li {
+    border-left: 1px solid #ffffff;
+    list-style-type: none;
+    padding: 15px 35px;
+    text-align: center;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.menu-bar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+} */
 
 .title-box {
     background-color: orange;
