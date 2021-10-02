@@ -140,13 +140,6 @@ body {
         font-size: 12px;
         display: none;
     }
-
-    .side-menu ul li ul {
-        top: 133px;   
-    }
-    .side-menu ul li:hover ul {
-        margin-left: 25%;
-    }
 }
 
 /* featured categories CSS */
