@@ -80,7 +80,7 @@ body {
     margin-right: 5px;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 768px) {
     .top-nav-bar {
         height: 118px;
         border-bottom: 0;
@@ -93,11 +93,16 @@ body {
     }
     .menu-bar ul {
         margin: 10px 0;
-        width: 100%;
+        width: 110%;
     }
     .menu-bar ul li {
         height: 57px;
         width: 100%;
+        font-size: 0.5rem;
+        padding: 15px 20px;
+    }
+    .logo {
+        width: 150px;
     }
 }
 /* side menu */
@@ -131,7 +136,7 @@ body {
     float: right;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 768px) {
     .side-menu {
         width: 34%;
         z-index: 20;
