@@ -69,6 +69,10 @@ body {
     cursor: pointer;
 }
 
+.mobileNav {
+    display: none;
+}
+
 .menu-bar ul li a {
     font-size: 16px;
     font-weight: bold;
@@ -99,10 +103,22 @@ body {
         height: 57px;
         width: 100%;
         font-size: 0.5rem;
-        padding: 15px 20px;
+        padding: 15px 0;
     }
     .logo {
         width: 150px;
+    }
+    .mobileNav {
+        display: unset;
+        width: -20 px;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+    .mobileNav i {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 8px;
     }
 }
 /* side menu */
@@ -126,24 +142,29 @@ body {
     cursor: pointer;
 }
 
-.side-menu ul li:hover {
+.side-menu ul li:hover, .side-menu ul li:active {
     color: orange;
 }
 
 .fa-angle-right {
     margin-top: 4px;
-    margin-right: 8px;
+    margin-right: 4px;
     float: right;
 }
 
 @media only screen and (max-width: 768px) {
     .side-menu {
-        width: 34%;
+        width: 40%;
+        height: 34%;
         z-index: 20;
-        top: 133px;
+        top: 117px;
         position: fixed;
         font-size: 12px;
         display: none;
+    }
+    .side-menu ul {
+        padding: 0;
+        margin: 5;
     }
 }
 

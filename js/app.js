@@ -8,6 +8,11 @@ $('.on-sale').on('click', '.add-to-cart', function () {
     $cart.text(' Cart (' + cartValue + ')');
 });
 
+// for mobile
+$('.top-nav-bar').on('click', '.mobileNav', function () {
+    $('.side-menu').css('display') === 'none' ? $('.side-menu').show() : $('.side-menu').hide();
+})
+
 $(() => {
     const render = (data) => {
         data.forEach(item => {
