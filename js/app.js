@@ -1,5 +1,13 @@
 console.log('JS connected!');
 
+const $cart = $('.shopping-cart-top');
+let cartValue = 0;
+
+$('.on-sale').on('click', '.add-to-cart', function () {
+    cartValue++;
+    $cart.text(' Cart (' + cartValue + ')');
+});
+
 $(() => {
     const render = (data) => {
         data.forEach(item => {
@@ -27,14 +35,3 @@ $(() => {
         }
     );
 });
-
-// $(cart).on('click', (e) => {    
-//     // e.preventDefault();
-//     console.log(cart.innerText)
-//     console.log('blahhhh')
-
-//     // let cart = document.querySelector('.shopping-cart-top');
-//     // cart.innerText =  " Cartsss (" + 1 + ")"
-//     cart.innerText(' Cart (' + 1 + ')');
-// });
-
