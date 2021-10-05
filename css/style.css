@@ -181,7 +181,7 @@ body {
     cursor: pointer;
 }
 
-.featured-categories img:hover {
+.featured-categories img:hover, .featured-categories img:active {
     transform: rotate3d(1, 2.0, 3.0, 10deg);
 }
 
@@ -240,7 +240,7 @@ body {
     float: right;
 }
 
-.add-to-cart:hover {
+.add-to-cart:hover, .add-to-cart:active {
 background-color:darkgoldenrod;
 color: lightgray;
 

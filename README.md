@@ -2,7 +2,9 @@
 
 I built a simple mock e-commerce site using HTML, CSS, and JavaScript/jQuery and hosted it on AWS EC2.
 
-Please visit to check out: <link to AWS hosted website>
+Please visit to check out: 
+* (on EC2) http://load-balancer-1348736991.us-east-2.elb.amazonaws.com
+* (on S3) http://andrew-the-engineer.s3-website.us-east-2.amazonaws.com/
 
 ## Wireframe:
 
