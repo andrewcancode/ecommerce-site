@@ -20,49 +20,50 @@ Your site must meet one of these 2 requirements:
 
 If you deploy on AWS S3, your ecommerce website should focus more on presentation (CSS).
 
-Responsive mobile design is required
-No templates are permitted. 
+- Responsive mobile design is required
+- No templates are permitted. 
 
 Non-Acceptable Frameworks:
-Hugo
-Wix
-Weebly
-Squarespace etc.
+* Hugo
+* Wix
+* Weebly
+* Squarespace etc.
 
 Acceptable CSS Libraries include:
-Bootstrap
-Materialize
-Bourbon
+* Bootstrap
+* Materialize
+* Bourbon
 
 ### Hosted with EC2
 
 If you deploy on EC2, your ecommerce website should be focused on infrastructure with minimum presentation (CSS).
-Implement IAM best practices
-Implement Security best practices
-Choose Amazon Machine Image
-Configure the Instance
-Configure Security Groups
+
+* Implement IAM best practices
+* Implement Security best practices
+* Choose Amazon Machine Image
+* Configure the Instance
+* Configure Security Groups
 
 ## Stretch Goals (Not Mandatory):
 
-Recommended Features
-Responsive mobile design
-Work with your instructor to determine additional stretch goals
+* Recommended Features
+* Responsive mobile design
+* Work with your instructor to determine additional stretch goals
 
 For EC2 hosted websites,
 
-Add an ELB
-Make your website highly available
-Add ENI
-Make an AMI 
-Create an autoscaling policy
+* Add an ELB
+* Make your website highly available
+* Add ENI
+* Make an AMI 
+* Create an autoscaling policy
 
 ## Post MVP - to improve
 
-Add individual product pages
-Add cart page
-Working DB backend
-Working search function
+* Add individual product pages
+* Add cart page
+* Working DB backend
+* Working search function
 
 ## Built With
 * [jQuery](https://code.jquery.com/) - The JS library used
